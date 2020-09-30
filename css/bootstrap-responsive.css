@@ -1,0 +1,253 @@
+@media screen and (min-width: 768px) {
+
+/* Demo */
+
+  #demo .boxes {
+    border: 1px solid #efefef;
+    padding: 0!important;
+  }
+  #demo .box {
+    padding: 20px 10px;
+  }
+  #demo .box:nth-child(2) {
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+body {
+  padding-top: 50px;
+  min-width: 360px;
+}
+h2, .h2 {
+  font-size: 22px;
+}
+h3, .h3 {
+  font-size: 20px;
+}
+.xs-no-padding {
+  padding: 0;
+}
+
+/* Home launcher */
+
+#lekommerce-launcher .row {
+  background-image: none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: auto;
+}
+#lekommerce-launcher h2,
+#lekommerce-launcher .input-group {
+  margin-bottom: 0;
+  text-align: center;
+}
+#lekommerce-launcher .input-group {
+  border: 0;
+  background-color: transparent;
+}
+#lekommerce-launcher .input-group .input-container {
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  margin: 5px 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#lekommerce-launcher .input-group .input-container,
+#lekommerce-launcher button {
+  width: 100%;
+}
+
+/* Footer 02 */
+
+#footer-02 p {
+  padding-left: 0;
+  padding-top: 40px;
+  text-align: center;
+}
+#footer-02 .social {
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+/* Linkasoft data */
+
+#linkasoft-data {
+  text-align: center;
+}
+#linkasoft-data i {
+  font-size: 60px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#linkasoft-data p {padding: 60px 0 0 0;font-size: inherit;}
+#linkasoft-data .number {
+  font-size: 20px;
+}
+
+/* Linkasoft comments */
+
+#linkasoft-comments a.carousel-control {
+    display: none;
+}
+
+/* Lekommerce specs */
+
+#lekommerce-specs p {
+  font-size: 13px;
+}
+
+/* Lekommerce steps */
+
+#lekommerce-steps .row > div:first-child {
+  padding: 0;
+}
+#lekommerce-steps .row > div:nth-child(2) {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Latest news */
+
+#latest-news h2 {
+  margin-bottom: 0;
+}
+#latest-news .image-box {
+  height: 140px;
+}
+#latest-news .row > div {
+  padding-top: 30px;
+}
+
+/* Linkasoft comments */
+
+#linkasoft-comments .box {
+  padding: 20px;
+}
+#linkasoft-comments h2 {
+  margin-bottom: 0;
+}
+#linkasoft-comments .item > div {
+  padding-top: 30px;
+}
+
+/* Footer 01 */
+
+#footer-01 .row > div{
+  padding-bottom: 20px;
+}
+
+/* Linkasoft products */
+
+#linkasoft-products {
+    padding: 40px 0;
+}
+#linkasoft-products h2 {
+    margin: 0 0 30px 0;
+}
+
+/* Lekommerce modules */
+
+#lekommerce-modules {
+    padding: 40px 0;
+}
+#lekommerce-modules h2 {
+    margin: 0 0 20px 0;
+}
+#lekommerce-modules h2 + .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+/* Lekommerce modules list */
+
+#lekommerce-modules-list > div:nth-child(even) {
+    text-align: left;
+}
+
+/* Lekommerce links */
+
+#lekommerce-links {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#lekommerce-links p .btn-default {
+    margin-bottom: 10px;
+}
+
+/* Contact */
+
+#contact form {
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+    margin-bottom: 40px;
+}
+
+/* Price tables */
+
+#price-table-01 .nav-pills li i {
+    font-size: 50px;
+}
+#price-table-01 .nav-pills {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+#price-table-01 .nav-pills li {
+    padding-left: 0;
+    padding-right: 0;
+    width: 160px;
+}
+#price-table-01 h2 {
+    margin: 0 0 20px 0;
+}
+#price-table-01 .nav-pills li a {
+    padding: 15px 0;
+}
+#price-table-02 h3 {
+    margin: 0 0 20px 0;
+}
+.price-table ul {
+    margin-bottom: 30px;
+}
+.price-table .btn {
+    margin-top: 5px;
+    min-width: 180px;
+}
+
+/* About page */
+
+#about-page .team > .row .no-padding {
+  padding-right: 15px;
+}
+
+/* Faq page */
+
+#faq-header h3 {
+  line-height: 1;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.faq-content p  {
+  font-size: 13px;
+}
+
+/* Demo */
+
+.success {
+  padding-top: 0;
+  min-width: 320px;
+}
+#demo .row > div {
+  padding: 10px 0 0 0;
+}
+#demo .box {
+  padding: 0 0 15px 0;
+}
+
+}

@@ -1,0 +1,3183 @@
+.parallax {
+    /* The image used */
+    background-image: url("img/parallax.jpg");
+
+    /* Set a specific height */
+    height: 860px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /**/
+  }
+  /*Empresas logos*/
+  .acer{
+    width: 140px;
+    height: 30px;
+  }
+  .ankar{
+      width: 160px;
+  }
+  .bionure{
+      width:140px;
+  }
+  .cadenaMovilnet{
+      width:140px;
+  }
+  .labalear{
+    width: 140px;
+  }
+  .laNansa{
+    width: 160px;
+    height: 100px;
+  }
+  .save{
+    width: 140px;
+    height: 100px;
+  }
+  .lead{
+      width:150px;
+      margin-top:12px;
+  }
+  .agrupa{
+      width:120px;
+  }
+  .idi{
+      width:100px;
+      margin-left: 60px;
+  }
+  .uic{
+      width: 110px;
+      margin-left: 30px;
+      margin-top:-10px;
+  }
+  .qmenta{
+      width:140px;
+  }
+  .sanss{
+      padding-top: -00px;
+      padding-bottom: -00px;
+  }
+  .sans{
+      position:absolute;
+      left:75px;
+      bottom:490px;
+  }
+  .enProceso{
+      margin-top:50px;
+  }
+  /*Fin Empresas Logos*/
+  .parallax2 {
+    /* The image used */
+    background-image: url("img/parallax2.jpg");
+
+    /* Set a specific height */
+    height: 570px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /**/
+
+
+  }
+  .fakeImg{
+      width:100px;
+  }
+  .box5,#box5{
+    min-height: 636.66px;
+}
+  .asociates{padding-top:90px;}
+  .certifGaem{
+      margin-top: 20px;
+  }
+  .thisP{
+      margin-top: -55px;
+  }
+  .anotherP{
+      font-size:29;
+  }
+  .empresass{
+    margin-top: 55px;
+  }
+  .bio{
+      margin-top:-10px;
+  }
+  /*Move; navbar*/
+  .move{
+    height: 50px;
+    position:relative;
+  }
+  #section1{
+    /* Sello */
+    top:90%;
+  }
+  #section2{
+    /* Como conseguirlo */
+    top:88%;
+  }
+  .ben{
+      margin-top:40px;
+  }
+  #section3{
+    /*Beneficios*/
+    top:86%;
+  }
+  #section4{
+    /*Certificación GAEM*/
+    top:86%;
+  }
+  #section5{
+    /*Empresas asociadas*/
+    top:87%;
+  }
+  .anetherP{
+    font-size: 16px;
+    color: #00305B;
+}
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+  /*Invertir colores de PNG*/
+  .invert { filter: invert(100%); }
+
+  /*Fin*/
+  .pShort{
+    line-height: 22px;
+  }
+  /* Boxes */
+  .box1{
+      height: 640px;
+      clear: both;
+      position:relative;
+  }
+  .box2{
+    height: 600px;
+    clear: both;
+    background-color: rgb(1,48,92);
+    position:relative;
+}
+.box3{
+    height: 600px;
+
+    background-color: rgb(234,244,246);
+    position:relative;
+}
+.box4{
+    height: 600px;
+
+    background-color: #ffffff;
+    position:relative;
+}
+.box5{
+    height: 600px;
+
+    background-color: white;
+    position:relative;
+}
+  /* end Boxes */
+
+/* Inicio asides */
+.blueWest{
+    height: 570px;
+    width: 38%;
+    background-color: rgba(16,66,115,0.95);
+    float: left;
+}
+.blueEast{
+    height: 570px;
+    width: 62%;
+    background-color: rgba(37,89,138,0.82);
+    float: left;
+}
+  .azulito{
+    height: 828px;
+    width: 44.6%;
+    /*width: 608px;*/
+    background-color:rgba(247, 248, 252, 0.648);
+    float:left;
+  }
+  .logo{
+      margin-top:110px;
+  }
+  .blancuzco{
+    background-color:  rgba(21, 65, 104, 0.85);
+    height: 828px;
+    width: 55.4%;
+    /*width:747px;*/
+
+    /*float: right;
+    margin-left:608px;
+    margin-top:-740px; */
+    float:left;
+  }
+  .azulPalido{
+    min-height: 640px;
+    width: 41.6%;
+    height: 640px;
+    background-color: rgba(235, 243, 246, 0.95);
+    float:left;
+  }
+  .asideBlanco{
+    float:left;
+    height: 640px;
+    min-height: 640px;
+    width: 58.4%;
+
+  }
+/* fin asides */
+/*Button me interesa
+* Reset button styles.
+* It takes a bit of work to achieve a neutral look.
+*/
+button {
+ padding: 0;
+ border: none;
+ font: inherit;
+ color: inherit;
+ background-color: transparent;
+ /* show a hand cursor on hover; some argue that we
+ should keep the default arrow cursor for buttons */
+ cursor: pointer;
+}
+
+
+.meInteresa{
+    position:absolute;
+    bottom:35px;
+    left:45%;
+    z-index: 1;
+    background-color: #00305b;
+    color:whitesmoke;
+
+      /* default for <button>, but useful for <a> */
+    border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+
+  /* create a small space when buttons wrap on 2 lines */
+  margin: 2px 0;
+
+  /* invisible border (will be colored on hover/focus) */
+  border: solid 1px transparent;
+  border-radius: 4px;
+
+  /* size comes from text & padding (no width/height) */
+  padding: 0.5em 1em;
+  line-height: 8px;
+}
+/* old-school "down" effect on clic + color tweak */
+.meInteresa:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+  }
+  /* inverse colors on mouse-over */
+.meInteresa:hover {
+
+    border-color: currentColor;
+    background-color: rgba(235, 243, 246, 0.95);
+    color:currentColor;
+    -webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,1);
+-moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,1);
+box-shadow: 0px 4px 10px 0px rgba(0,0,0,1);
+  }
+#meInt1{
+
+    height: 50px;
+
+}
+#meInt2{
+
+    height: 50px;
+    background-color: rgba(235, 243, 246, 0.95);
+    color: #00305b;
+
+}
+#meInt3{
+
+    height: 50px;
+
+}
+#meInt4{
+
+    height: 50px;
+
+}
+#meInt5{
+
+    height: 50px;
+
+}
+
+/*final me interesa*/
+/* Inicio spans */
+  .span1{
+    color:#FFFFFF;
+    font-size: 42px;
+    letter-spacing: 0.05em;
+  }
+  .span11{
+    color:#FFFFFF;
+    font-size: 42px;
+    letter-spacing: 0.05em;
+  }
+  .span2{
+    color:#FFFFFF;
+    font-size: 42px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    line-height: 35px;
+  }
+  .span22{
+    color:#FFFFFF;
+    font-size: 42px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    line-height: 35px;
+  }
+  .span3{
+    font-size: 33px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #00305B;
+  }
+  .span4{
+    font-size: 33px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #00305B;
+    font-weight: bold;
+  }
+  .span5{
+      font-size: 24px;
+      color: #E69010;
+  }
+  .aBitPad{
+      padding-top:15px;
+      padding-bottom: 35px;
+  }
+  .anotherPad{
+      padding-top:20px;
+      padding-bottom: 20px;
+  }
+  .spans6{
+      font-size: 18px;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #00305B;
+  }
+  .spans7{
+    letter-spacing: normal;
+    color: #00305B;
+    text-align: start;
+    font-size: 14px;
+  }
+  .span8{
+      font-size: 42px;
+      color: white;
+  }
+  .span9{
+      font-weight: bold;
+  }
+  .span10{
+    color: #E69010;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  .span11{
+      font-weight: bold;
+  }
+  .otherSpan{
+      font-weight: 600;
+      color: #E69010;
+  }
+  .span12{
+    color: #E69010;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 24px;
+  }
+   /*Link de $·%""%*/
+   #sht:link{
+       color:white;
+   }
+    /*Link de $·%""%*/
+    #sht2:link{
+        color: rgba(21, 65, 104, 0.85);
+    }
+   #googleLocator:link{
+       color:aqua;
+   }
+
+
+
+/* Fin spans*/
+.fakeH{
+    height: 45px;
+}
+/* Texts */
+  .text1{
+      margin-left: 14%;
+     margin-top:-230px;
+      position:absolute;
+  }
+  .newText{
+    margin-left: 14%;
+   margin-top:-230px;
+    position:absolute;
+}
+  .text2{
+      margin-left: 32%;
+
+  }
+  .contact{
+      margin-left: 26%;
+  }
+/* end texts*/
+  .p1{
+    color:#ffffff;
+    line-height: normal;
+    letter-spacing: normal;
+    width:320px;
+    font-size: 20px;
+  }
+  .theseP{
+      color:#ffffff;
+      line-height: normal;
+      letter-spacing: normal;
+      font-size: 16px;
+  }
+  .thisP{
+    color: #00305B;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 42px;
+  }
+  .anotherP{
+    line-height: normal;
+    letter-spacing: normal;
+    line-height: 1.4em;
+    color: #00305B;
+    font-size: 16px;
+    display:inline-block;
+  }
+  ul{
+      list-style-position: inside;
+  }
+  .weirdSvg{
+    margin-left: 50%;
+}
+.footer1{
+    height: 70px;
+    background-color: rgb(1,48,92);
+}
+.myBtn{
+    background-color: rgb(1,48,92);
+
+}
+.aboutUs{
+    padding-top:70px; padding-left: 20px;
+}
+.flechita{
+    transform: rotate(180deg);
+}
+.footer2{
+    height: 80px;
+    background-color: #fff;
+}
+.footLeft{
+    width:70%;
+}
+.footRight{
+    width:29%;
+    float: right;
+}
+.texti{
+    resize: none; height: 90px; width: 300px; border:none;border-top-right-radius: 20px;
+}
+.texti2{
+    resize: none; height: 88px; width: 280px;
+    border:none;
+}
+.impit{
+    width:280px;
+    padding: 20px;
+
+    border:none;
+}
+#impit1{
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.former2{
+    margin-top: 48%;
+    margin-left:20%;
+}
+.imSend{
+    padding:10px;
+    background-color: #19408c;
+    color: #fff;
+    border:none;
+    margin-top:-4px;
+    width:280px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+/*Inputs de abajito*/
+.downInputs{
+    border:none;
+    height: 30px;
+}
+.disForm{
+    width:503px;
+}
+.sendi{
+    width:160px;
+    /*min-width: 503px;*/
+    height: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top:20px;
+
+}
+#impit2{
+
+    border-top-left-radius: 20px;
+}
+
+
+/* So now comes the fun
+/* Lets be responsive.
+/**/
+@media (min-width: 1200px) {
+
+
+    .sendi{
+        /*width: 474px;*/
+    }
+ }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .span22{
+        font-size: 32px;
+    }
+    .span11{
+        font-size: 30px;
+    }
+    .text1{
+        margin-left: 30%;
+    }
+
+    .span8{
+        font-size: 36px;
+    }
+    .thisP{
+        font-size: 36px;
+    }
+    .rightHere{
+        padding-top: 45px;
+    }
+    /*Updates*/
+    .span1,.span2{
+        font-size: 32px;
+    }
+    .newText{
+        margin-top: -220px;
+    }
+    .p1{
+        margin-left:-30px;
+    }
+    .former2{
+        margin-top:320px;
+        margin-left: 15%;
+
+    }
+    .asociates{
+        padding-top: 70px;
+    }
+    .thisP{
+        font-size: 28px;
+    }
+
+    /*end of Updates*/
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+        /*Updates*/
+        .span1,.span2{
+            font-size: 32px;
+        }
+        .newText{
+            margin-top: -220px;
+        }
+        .p1{
+            margin-left:-30px;
+            font-size: 18px;
+        }
+        .former2{
+            margin-top:320px;
+            margin-left: 10%;
+
+        }
+        .asociates{
+            padding-top: 70px;
+        }
+        .thisP{
+            font-size: 28px;
+        }
+          /*Empresas logos*/
+  .acer{
+    width: 100px;
+    height: 20px;
+  }
+  .ankar{
+      width: 120px;
+  }
+  .bionure{
+      width:100px;
+  }
+  .cadenaMovilnet{
+      width:100px;
+  }
+  .labalear{
+    width: 100px;
+  }
+  .laNansa{
+    width: 120px;
+    height: 100px;
+  }
+  .save{
+    width: 100px;
+    height: 100px;
+  }
+  .lead{
+      width:80px;
+      margin-top:12px;
+  }
+  .agrupa{
+      width:90px;
+  }
+  .idi{
+      width:70px;
+      margin-left: 60px;
+  }
+  .uic{
+      width: 80px;
+      margin-left: 30px;
+      margin-top:-10px;
+  }
+  .qmenta{
+      width:140px;
+  }
+  .enProceso{
+      margin-top:50px;
+  }
+  /*Fin Empresas Logos*/
+
+/*end of Updates*/
+    .span22{
+        font-size: 32px;
+    }
+    .span11{
+        font-size: 30px;
+    }
+
+    .fakeImg{
+        width:20px;
+    }
+    .letLink{
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+    .contact{
+        margin-left:10%;
+    }
+
+
+    .text1{
+        margin-left: 25%;
+    }
+
+    .span8{
+        font-size: 28px;
+    }
+    .span22{
+        font-size: 26px;
+    }
+    .span11{
+        font-size: 21px;
+    }
+
+    .fakeH{
+        height: 35px;
+    }
+
+
+    .text1{
+        margin-left: 16%;
+    }
+    .aboutUs{
+        padding-top:10px; padding-left: 20px;
+    }
+    .sendi{
+        /*width:402px;*/
+    }
+    #disForm{
+        width:402px;
+    }
+    .texti{
+        width:199px;
+    }
+    .pShort{
+        line-height: 20px;
+    }
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*
+    .parallax2,.box1,.box2,.box3,.box4,.box5,.parallax,.footer1,.footer2{
+        min-width: 991px;
+
+    }
+    */
+            /*Updates*/
+            .span1,.span2{
+                font-size: 32px;
+
+            }
+            .span1{
+                margin-left: -54px;
+            }
+            .span2{
+                margin-left: -40px;
+            }
+            .newText{
+                margin-top: -220px;
+            }
+            .p1{
+                margin-left:-50px;
+                font-size: 18px;
+            }
+            .former2{
+                margin-top:320px;
+                margin-left: 10%;
+
+            }
+            .asociates{
+                padding-top: 70px;
+            }
+            .thisP{
+                font-size: 28px;
+            }
+              /*Empresas logos*/
+      .acer{
+        width: 100px;
+        height: 20px;
+      }
+      .ankar{
+          width: 120px;
+      }
+      .bionure{
+          width:100px;
+      }
+      .cadenaMovilnet{
+          width:100px;
+      }
+      .labalear{
+        width: 100px;
+      }
+      .laNansa{
+        width: 120px;
+        height: 100px;
+      }
+      .save{
+        width: 100px;
+        height: 100px;
+      }
+      .lead{
+          width:80px;
+          margin-top:12px;
+      }
+      .agrupa{
+          width:90px;
+      }
+      .idi{
+          width:70px;
+          margin-left: 60px;
+      }
+      .uic{
+          width: 80px;
+          margin-left: 30px;
+          margin-top:-10px;
+      }
+      .qmenta{
+          width:140px;
+      }
+      .enProceso{
+          margin-top:50px;
+      }
+      /*Fin Empresas Logos*/
+
+    /*end of Updates*/
+    .downInputs{
+        /*now grow*/
+        width:382px;
+
+    }
+    .box3{
+        height: 740px;
+    }
+    .box2{
+        height: 800px;
+    }
+    #impit2{
+        border-top-right-radius: 20px;
+    }
+    .span1{
+        font-size: 36px;
+    }
+    .span2{
+        font-size: 32px;
+    }
+    .text1{
+        margin-left: 3%;
+    }
+    .p1{
+        width:260px;
+    }
+    .former2{
+        margin-left: 4%;
+    }
+    .contact{
+        margin-left: 10%;
+    }
+    .former2{
+        margin-left: -10%;
+    }
+    .span22{
+        font-size: 24px;
+    }
+    .span11{
+        font-size: 20px;
+    }
+    .box4{
+        height: 700px;
+    }
+
+    .span8{
+        font-size: 36px;
+    }
+    .texti{
+        width:180px;
+    }
+    .thisP{
+        font-size: 24px;
+        margin-top:-10px;
+    }
+
+    .aboutUs{
+        padding-top: 30px;
+    }
+    .sendi{
+        /*width:382px;*/
+    }
+
+    .box4{height: 800px;}
+    .box1,.azulPalido,.asideBlanco{
+        height: 820px;
+    }
+    .box5,#box5{
+        min-height: 666.66px;
+
+    }
+    .fakeImg{
+        width: 0px;
+    }
+    .letLink{
+        font-size: 14px;
+    }
+    .weirdSvg{
+        margin-left: 20%;
+    }
+    .spans6{
+        font-size: 14px;
+    }
+    .spans7{
+        font-size: 13px;
+    }
+    .text2{
+        margin-left: 10%;
+    }
+    .thisP{
+        margin-top:-50px;
+    }
+    .certifGaem{
+        margin-top: 30px;
+    }
+ }
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+     /*Omg, im so gonna regret this moment(?)
+    */
+            /*Updates*/
+            .span1,.span2{
+                font-size: 32px;
+
+            }
+            .span1{
+                margin-left: -54px;
+            }
+            .span2{
+                margin-left: -40px;
+            }
+            .newText{
+                margin-top: -220px;
+            }
+            .p1{
+                margin-left:-50px;
+                font-size: 18px;
+            }
+            .former2{
+                margin-top:320px;
+                margin-left: 10%;
+
+            }
+            .former3{
+                margin-top:120px;
+            }
+            .logoCel{
+                top:-200px
+            }
+            .cinta{
+                background-color: rgba(247, 248, 252, 0.648);
+            }
+            .asociates{
+                padding-top: 70px;
+            }
+            .thisP{
+                font-size: 28px;
+            }
+              /*Empresas logos*/
+      .acer{
+        width: 100px;
+        height: 20px;
+      }
+      .ankar{
+          width: 120px;
+      }
+      .bionure{
+          width:100px;
+      }
+      .cadenaMovilnet{
+          width:100px;
+      }
+      .labalear{
+        width: 100px;
+        height: 50px;
+      }
+      .laNansa{
+        width: 120px;
+        height: 100px;
+      }
+      .save{
+        width: 100px;
+        height: 100px;
+      }
+      .lead{
+          width:80px;
+          margin-top:12px;
+      }
+      .agrupa{
+          width:90px;
+      }
+      .idi{
+          width:70px;
+          margin-left: 60px;
+      }
+      .uic{
+          width: 80px;
+          margin-left: 30px;
+          margin-top:-10px;
+      }
+      .qmenta{
+          width:140px;
+      }
+      .enProceso{
+          margin-top:50px;
+      }
+      /*Fin Empresas Logos*/
+      .box5,#box5{
+        min-height: 800.66px;
+
+
+    }
+
+    /*end of Updates*/
+    .azulito{
+        width:100%;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .box3{height: 820px;}
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+
+    .box4{
+        height: 900px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+
+
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -60px;
+        font-size: 20px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+  }
+
+  /* Este es el inicio de los queries de celular laptop y monitores raros.
+  Dios salve todo lo que es bueno, santo y puro.
+  Gracias, Patricia Hernandez. */
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+      .sendi{
+          /*width: 483px;*/
+      }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+    .sendi{
+        /*width: 483px;*/
+    }
+}
+
+  /* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    /*Omg, im so gonna regret this moment(?)
+    */
+
+    .azulito{
+        width:100%;
+    }
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+    .box3{
+        height: 700px;
+    }
+    .box4{
+        height: 999px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .sendi{
+        /*width: 202px;*/
+    }
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+    .anotherP{
+        font-size: 14px;
+    }
+    .box4{
+        height: 999px;;
+    }
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -90px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+}
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /*Omg, im so gonna regret this moment(?)
+    */
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+    .azulito{
+        width:100%;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+    .box3{
+        height: 700px;
+    }
+    .box4{
+        height: 999px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .sendi{
+        /*width: 202px;*/
+    }
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+    .anotherP{
+        font-size: 14px;
+    }
+    .box4{
+        height: 999px;;
+    }
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -90px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /*Omg, im so gonna regret this moment(?)
+    */
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+    .azulito{
+        width:100%;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+    .box3{
+        height: 700px;
+    }
+    .box4{
+        height: 999px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .sendi{
+        /*width: 202px;*/
+    }
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+    .anotherP{
+        font-size: 14px;
+    }
+    .box4{
+        height: 999px;;
+    }
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -90px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+}
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3){
+    /*Omg, im so gonna regret this moment(?)
+    */
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+    .azulito{
+        width:100%;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+    .box3{
+        height: 700px;
+    }
+    .box4{
+        height: 999px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .sendi{
+        /*width: 202px;*/
+    }
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+    .anotherP{
+        font-size: 14px;
+    }
+    .box4{
+        height: 999px;;
+    }
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -90px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+}
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3){
+    /*Omg, im so gonna regret this moment(?)
+    */
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+    .azulito{
+        width:100%;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+    .box3{
+        height: 700px;
+    }
+    .box4{
+        height: 999px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .sendi{
+        /*width: 202px;*/
+    }
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+    .anotherP{
+        font-size: 14px;
+    }
+    .box4{
+        height: 999px;;
+    }
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -90px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+}
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2) {
+    /*Omg, im so gonna regret this moment(?)
+    */
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+    .azulito{
+        width:100%;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+    .box3{
+        height: 700px;
+    }
+    .box4{
+        height: 999px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .sendi{
+        /*width: 202px;*/
+    }
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+    .anotherP{
+        font-size: 14px;
+    }
+    .box4{
+        height: 999px;;
+    }
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -90px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+}
+/*El portrait de mi monitor nuevo y anotherEasternEgg for Patricia Hernandez*/
+@media screen and (device-width:1366px) and (device-height:768px)
+{
+    /*.sendi{
+        width: 502px;
+    }*/
+    .contact{
+        margin-top: 100px;
+    }
+    .aboutUs{
+        margin-top: -20px;
+    }
+
+}
+/* Trying to fix Karina's resolution */
+@media screen and (device-width:1166px) and (device-height:864px)
+{
+    .sendi{
+        /*width: 450px;*/
+    }
+
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+    /*Omg, im so gonna regret this moment(?)
+    */
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+    .azulito{
+        width:100%;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+    .box3{
+        height: 700px;
+    }
+    .box4{
+        height: 999px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .sendi{
+        /*width: 202px;*/
+    }
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+    .anotherP{
+        font-size: 14px;
+    }
+    .box4{
+        height: 999px;;
+    }
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -90px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+}
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4) {
+    /*Omg, im so gonna regret this moment(?)
+    */
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+    .azulito{
+        width:100%;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+    .box3{
+        height: 700px;
+    }
+    .box4{
+        height: 999px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .sendi{
+        /*width: 202px;*/
+    }
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+    .anotherP{
+        font-size: 14px;
+    }
+    .box4{
+        height: 999px;;
+    }
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -90px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+}
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+    /*Omg, im so gonna regret this moment(?)
+    */
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+    .azulito{
+        width:100%;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+    .box3{
+        height: 700px;
+    }
+    .box4{
+        height: 999px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .sendi{
+        /*width: 202px;*/
+    }
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+    .anotherP{
+        font-size: 14px;
+    }
+    .box4{
+        height: 999px;;
+    }
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -90px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+}
+/* ----------- Google Pixel XL ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)  {
+    /*Omg, im so gonna regret this moment(?)
+    */
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+    .azulito{
+        width:100%;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+    .box3{
+        height: 700px;
+    }
+    .box4{
+        height: 999px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .sendi{
+        /*width: 202px;*/
+    }
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+    .anotherP{
+        font-size: 14px;
+    }
+    .box4{
+        height: 999px;;
+    }
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -90px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+}
+/* ----------- HTC One ----------- */
+
+/* Iv's res<3 */
+@media screen
+  and (device-width: 1480px)
+  and (device-height: 720px) {
+    .sendi{
+        /*width: 80px;*/
+
+    }
+  }
+  @media screen
+  and (device-width: 720px)
+  and (device-height: 1480px) {
+    .sendi{
+        /*width: 80px;*/
+
+  }
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)  {
+    /*Omg, im so gonna regret this moment(?)
+    */
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+    .azulito{
+        width:100%;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+    .box3{
+        height: 700px;
+    }
+    .box4{
+        height: 999px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .sendi{
+        /*width: 202px;*/
+    }
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+    .anotherP{
+        font-size: 14px;
+    }
+    .box4{
+        height: 999px;;
+    }
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -90px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+}
+/* ----------- Windows Phone ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 480px)
+  and (device-height: 800px) {
+    /*Omg, im so gonna regret this moment(?)
+    */
+    .parallax,.azulito{
+        min-height: 685px;
+    }
+    .azulito{
+        width:100%;
+    }
+    .certifGaem{
+        margin-left: 10px;
+    }
+    .certi{
+        margin-left: -30px;
+    }
+    .text2{
+        margin-left:10px;
+    }
+    .text1{
+        margin-left: 10px;
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+    .span12{
+        margin-left: -20px;
+    }
+    .formCel{
+        margin-top:-80px;
+
+    }
+    .former3{
+        margin-left: -40px;
+    }
+    .span2{
+        margin-left: 40px;
+    }
+    .span1{
+        margin-left: 45px;
+    }
+    .box1,.azulPalido{
+        height: 999px;
+    }
+    .box2{
+        height: 1060px;
+    }
+    .span8{
+        font-size: 38px;
+    }
+    .span9{
+        font-size:33px;
+    }
+    .contact{
+        margin-left: 5px;
+    }
+    .box3{
+        height: 700px;
+    }
+    .box4{
+        height: 999px;
+    }
+    .parallax2,.blueEast,.blueWest{
+        height: 620px;
+    }
+    .sendi{
+       /*width: 202px;*/
+    }
+    .span22{
+        font-size: 15px;
+    }
+    .span11{
+        font-size: 12px;
+    }
+    .thisP{
+        margin-left: -40px;
+    }
+
+    .blueWest{
+
+        width: 35%;
+        height: 799px;
+    }
+    .blueEast{
+
+        width: 65%;
+        height: 799px;
+    }
+    .parallax2{
+        height: 799px;
+    }
+    .azulPalido{
+        width:100%;
+    }
+    .span3Replace{
+        font-size: 17px;
+        margin-left: 10%;
+    }
+    .spans6{
+        font-size: 13px;
+    }
+    .spans7{
+        font-size: 11px;
+    }
+    .span8{
+        font-size: 22px;
+    }
+    .span9{
+        font-size: 21px;
+    }
+    .span10{
+        font-size: 19px;
+    }
+    .rightHere{
+        margin-left: -40px;
+    }
+    .spanXY,.spanYX{
+        font-size: 18px;
+    }
+    .spanXY{
+        margin-left: 10%;
+    }
+    .spanYX{
+        margin-left: 10%;
+    }
+    .anotherP{
+        font-size: 14px;
+    }
+    .box4{
+        height: 999px;;
+    }
+
+    .certi{
+        font-size: 20px;
+    }
+    .spanEmpresa{
+        font-size: 20px;
+        margin-left:-15px;
+    }
+    .span12{
+        width: 290px;
+        margin-left: -80px;
+    }
+    .thisP{
+        width:320px;
+        margin-left: -90px;
+    }
+    .separate{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .formCont{
+        margin-left:-10px;
+    }
+    .sendi{
+        /*width: 203px;*/
+    }
+}
